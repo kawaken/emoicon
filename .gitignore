@@ -1,0 +1,5 @@
+config/emoicon.yml
+vendor
+db/sqlite3.db
+bin/
+public/images/emoji
