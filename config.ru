@@ -19,4 +19,4 @@ OmniAuth.config.on_failure = Proc.new { |env|
 
 use GoogleAuthor
 
-run Server
+run Nicorp

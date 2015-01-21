@@ -3,7 +3,7 @@ require 'erubis'
 
 require_relative 'models/init'
 
-class Server < Sinatra::Base
+class Nicorp < Sinatra::Base
   before do
     @user = User.find_or_create(session['emotion.user'])
   end
